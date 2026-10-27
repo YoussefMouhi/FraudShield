@@ -1,6 +1,11 @@
-<p align="center"><img src="assets/fraudshield_logo.png" alt="Fraudshield logo" width="560"></p>
+<p align="center">
+  <img src="assets/fraudshield_banner.png" alt="FraudShield AI banner" width="100%">
+</p>
 
-# ◈ FraudShield AI
+<h1>
+  <img src="assets/fraudshield_icon.png" alt="FraudShield icon" width="40">
+  FraudShield AI
+</h1>
 
 ### Financial Fraud Detection & Risk Intelligence
 
