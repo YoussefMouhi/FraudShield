@@ -9,18 +9,21 @@ import streamlit as st
 
 st.set_page_config(
     page_title="FraudShield AI",
-    page_icon="🛡️",
+    page_icon="assets/fraudshield_icon.png",
     layout="wide",
 )
 
-# Project branding
-st.image("assets/fraudshield_logo.png", width=420)
 
 MODEL_PATH = Path("models/xgboost_fraud_detector.joblib")
 DATA_PATH = Path("data/creditcard.csv")
 
-st.title("🛡️ FraudShield AI")
-st.caption("Financial Fraud Detection & Risk Analysis")
+col_logo, col_title = st.columns([1, 10], vertical_alignment="center")
+
+with col_logo:
+    st.image("assets/fraudshield_icon.png", width=55)
+
+with col_title:
+    st.title("FraudShield AI")
 
 if not MODEL_PATH.exists():
     st.error("Model not found. Train and save XGBoost first.")
