@@ -81,38 +81,13 @@ The Streamlit dashboard includes four areas:
 
 ## 🔁 Architecture & Pipeline
 
-```text
-Credit card transactions (creditcard.csv)
-                  │
-                  ▼
-         Dataset validation
-                  │
-                  ▼
-      Stratified data partition
-        60% train / 20% validation / 20% test
-                  │
-          ┌───────┴─────────┐
-          ▼                 ▼
-  Supervised models    Anomaly detection
-  • Logistic Reg.      • Isolation Forest
-  • Random Forest      • Autoencoder
-  • XGBoost            (normal training data)
-          │                 │
-          └────────┬────────┘
-                   ▼
-        Validation comparison
-         PR-AUC + F1 / threshold
-                   │
-                   ▼
-          Selected XGBoost
-                   │
-                   ▼
-       Reserved test evaluation
-                   │
-          ┌────────┴────────┐
-          ▼                 ▼
-      SHAP analysis    Streamlit dashboard
-```
+
+<p align="center">
+  <img src="assets/fraudshield_architecture.png"
+       alt="FraudShield AI Architecture and Pipeline"
+       width="100%">
+</p>
+
 
 **Training and evaluation:** The dataset is partitioned with stratified random sampling (`random_state=42`). Model comparisons use the validation partition. Thresholds for classification are chosen by maximizing validation F1, so threshold-dependent validation scores are optimistic. XGBoost was selected based on validation performance, and its chosen threshold was carried into the reported test evaluation without test-set retuning.
 
