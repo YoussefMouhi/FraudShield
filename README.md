@@ -30,25 +30,13 @@
 
 <br>
 
-[**Quick start**](#quick-start) ·
-[**Architecture**](#architecture) ·
-[**Model performance**](#model-performance) ·
-[**Limitations**](#limitations)
+[**Quick start**](#-quick-start) ·
+[**Architecture**](#-architecture--pipeline) ·
+[**Model results**](#-model-results) ·
+[**Limitations**](#️-limitations--responsible-use)
 
 </div>
 <!-- FRAUDSHIELD INTRO END -->
-
-
-
-### Financial Fraud Detection & Risk Intelligence
-
-**Detect suspicious transactions · Compare machine-learning approaches · Explain model decisions**
-
-An end-to-end, exploratory machine-learning application for detecting credit card fraud in highly imbalanced transaction data.
-
-[Quick start](#-quick-start) · [Model results](#-model-results) · [Architecture](#-architecture--pipeline) · [Limitations](#️-limitations--responsible-use)
-
----
 
 ## 🛠️ Technology Stack
 
