@@ -7,6 +7,39 @@
   FraudShield AI
 </h1>
 
+
+<!-- FRAUDSHIELD INTRO START -->
+<div align="center">
+
+### Financial Fraud Detection & Risk Intelligence
+
+**Detect fraudulent transactions · Compare machine-learning models · Explain predictions**
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-EC6B23)
+![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-7952B3)
+![Tests](https://img.shields.io/badge/Tests-Pytest-2EA44F)
+
+<br>
+
+*An end-to-end machine-learning application for detecting suspicious financial transactions and explaining model decisions.*
+
+<br>
+
+[**Quick start**](#quick-start) ·
+[**Architecture**](#architecture) ·
+[**Model performance**](#model-performance) ·
+[**Limitations**](#limitations)
+
+</div>
+<!-- FRAUDSHIELD INTRO END -->
+
+
+
 ### Financial Fraud Detection & Risk Intelligence
 
 **Detect suspicious transactions · Compare machine-learning approaches · Explain model decisions**
