@@ -13,6 +13,9 @@ st.set_page_config(
     layout="wide",
 )
 
+# Project branding
+st.image("assets/fraudshield_logo.png", width=420)
+
 MODEL_PATH = Path("models/xgboost_fraud_detector.joblib")
 DATA_PATH = Path("data/creditcard.csv")
 
